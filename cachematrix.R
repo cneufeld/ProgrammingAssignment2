@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These two functions work together to optimize the inverting of a matrix.  
+## The first time the cacheSolve routine is called, the inverted matrix is 
+## cached, so it won't need to be recalculated if it's needed again.
 
 ## To call these functions, use the following sample code:
 ##  x<-matrix(c(1:4), ncol=2, nrow=2)
